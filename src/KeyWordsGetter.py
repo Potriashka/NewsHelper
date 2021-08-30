@@ -1,15 +1,16 @@
 # Key Word(s) - KW
 
 # creating an empty list
-lst = []
+KeyWords = []
  
 # number of KW in input
 n = int(input("Enter number of key words : "))
  
 # iterating till the range
 for i in range(0, n):
-    ele = int(input())
+    ele = input()
  
-    lst.append(ele) # adding the KW
+    KeyWords.append(ele) # adding the KW
      
-print(lst)
+print(KeyWords)
+KeyWords = str(KeyWords)
