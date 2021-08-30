@@ -5,3 +5,5 @@ from KeyWordsGetter import KeyWords
 SearchResults = search(KeyWords)
 
 print(SearchResults)
+
+import PhrasesGetter
