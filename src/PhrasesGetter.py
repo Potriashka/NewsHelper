@@ -8,6 +8,10 @@ for i in range(len(SearchResults)):
     page = requests.get(url)
     soup = BeautifulSoup(page.text, "html.parser")
     thing = soup.find('h1')
+    
+    try:
+        print(thing.text)
+    except Exception as e:
+        print("Doesn't work for some reason")
 
-    print(thing.text)
     i += 1
